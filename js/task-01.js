@@ -1,13 +1,12 @@
 "user strict";
 
-const totalCategories = document.querySelectorAll(".item");
-console.log(`Number of categories: ${totalCategories.length}`);
+const itemEl = document.querySelectorAll(`.item`);
+console.log(`Number of categories:`, itemEl.length);
 
-const categoriesArr = [...totalCategories]
-  .map(
-    (category) => `Category: ${category.children[0].textContent}
-Elements: ${category.children[1].children.length}`
-  )
-  .join("\n");
-console.log(categoriesArr);
-
+const itemElArray = [...itemEl]
+    .map(
+        (item) =>`Category: ${item.children[0].textContent}
+        Elements:${item.children[1].children.length}`
+    ).join("\n");
+    
+console.log(itemElArray);
