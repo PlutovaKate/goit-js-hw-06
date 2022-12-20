@@ -1,6 +1,6 @@
-const bodyColorEL = document.querySelector('.widget');
-const textColorEl = document.querySelector('.color');
-const buttonEl = document.querySelector('.change-color');
+const bodyColorEL = document.querySelector(".widget");
+const textColorEl = document.querySelector(".color");
+const buttonEl = document.querySelector(".change-color");
 const body = document.body;
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
@@ -10,4 +10,4 @@ const randomColor = () => {
   body.style.backgroundColor = color;
   textColorEl.textContent = color;
 };
-buttonEl.addEventListener('click', randomColor);
+buttonEl.addEventListener("click", randomColor);
