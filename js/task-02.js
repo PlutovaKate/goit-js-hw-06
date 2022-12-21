@@ -7,7 +7,6 @@ const ingredients = [
   "Condiments",
 ];
 
-
 const ingredient = ingredients.map((element) => {
   const liItem = document.createElement("li");
   liItem.textContent = element;
@@ -16,6 +15,5 @@ const ingredient = ingredients.map((element) => {
   return liItem;
 });
 
-const ulElement = document.querySelector('ul');
+const ulElement = document.querySelector("ul");
 ulElement.append(...ingredient);
-

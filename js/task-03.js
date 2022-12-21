@@ -29,6 +29,3 @@ ulGalleryEl.style.flexWrap = "wrap";
 ulGalleryEl.style.listStyle = "none";
 ulGalleryEl.style.gap = "50px";
 ulGalleryEl.style.backgroundColor = "ivory";
-
-
-
