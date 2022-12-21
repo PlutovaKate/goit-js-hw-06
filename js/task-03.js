@@ -23,3 +23,12 @@ const makeGalleryCard = images
   .join("");
 console.log(makeGalleryCard);
 ulGalleryEl.insertAdjacentHTML("beforeend", makeGalleryCard);
+
+ulGalleryEl.style.display = "flex";
+ulGalleryEl.style.flexWrap = "wrap";
+ulGalleryEl.style.listStyle = "none";
+ulGalleryEl.style.gap = "50px";
+ulGalleryEl.style.backgroundColor = "ivory";
+
+
+
