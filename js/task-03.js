@@ -13,19 +13,22 @@ const images = [
   },
 ];
 
-const ulGalleryEl = document.querySelector(".gallery");
-const makeGalleryCard = images
-  .map(
-    (image) => `<li class="item">
-  <img  src="${image.url}" alt="${image.alt}"/>
-</li>`
-  )
-  .join("");
-console.log(makeGalleryCard);
-ulGalleryEl.insertAdjacentHTML("beforeend", makeGalleryCard);
+// const listGallery = document.querySelector(".gallery");
+// const makeGalleryCard = images
+//   .map(
+//     (image) => `<li class="item">
+//   <img  src="${image.url}" alt="${image.alt}"/>
+// </li>`
+//   )
+//   .join("");
+// console.log(makeGalleryCard);
+// listGallery.insertAdjacentHTML("beforeend", makeGalleryCard);
 
-ulGalleryEl.style.display = "flex";
-ulGalleryEl.style.flexWrap = "wrap";
-ulGalleryEl.style.listStyle = "none";
-ulGalleryEl.style.gap = "50px";
-ulGalleryEl.style.backgroundColor = "ivory";
+// listGallery.style.display = "flex";
+// listGallery.style.flexWrap = "wrap";
+// listGallery.style.listStyle = "none";
+// listGallery.style.gap = "50px";
+// listGallery.style.backgroundColor = "ivory";
+
+
+

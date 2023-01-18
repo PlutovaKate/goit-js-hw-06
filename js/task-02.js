@@ -7,27 +7,26 @@ const ingredients = [
   "Condiments",
 ];
 
-const ingredient = ingredients.map((element) => {
-  const liItem = document.createElement("li");
-  liItem.textContent = element;
-  liItem.classList.add("item");
-
-  return liItem;
-});
-
-const ulElement = document.querySelector("ul");
-ulElement.append(...ingredient);
+// const ingredient = ingredients.map((ingredient) => {
+//   const itemEl = document.createElement('li')
+//   itemEl.textContent = ingredient
+//   itemEl.classList.add('item')
+//   const listEl = document.querySelector('ul')
+//   listEl.append(itemEl)
+//   return itemEl
+// })
+//або
+// const listEl = document.querySelector("ul");
+// listEl.append(...ingredient);
 
 //2-ий варіант
 
-
-// const listEl = document.getElementById("ingredients");
+// const listEl = document.getElementById('ingredients')
 
 // ingredients.forEach((ingredient) => {
-//   const itemEl = document.createElement("li");
-//   itemEl.innerText = ingredient;
-//   itemEl.classList.add("item");
-//   listEl.append(itemEl);
-// });
-
+//   const itemEl = document.createElement('li')
+//   itemEl.innerText = ingredient
+//   itemEl.classList.add('item')
+//   listEl.append(itemEl)
+// })
 
