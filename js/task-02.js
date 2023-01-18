@@ -17,3 +17,17 @@ const ingredient = ingredients.map((element) => {
 
 const ulElement = document.querySelector("ul");
 ulElement.append(...ingredient);
+
+//2-ий варіант
+
+
+// const listEl = document.getElementById("ingredients");
+
+// ingredients.forEach((ingredient) => {
+//   const itemEl = document.createElement("li");
+//   itemEl.innerText = ingredient;
+//   itemEl.classList.add("item");
+//   listEl.append(itemEl);
+// });
+
+

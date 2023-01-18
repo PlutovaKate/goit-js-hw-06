@@ -1,15 +1,15 @@
 "use strict";
 
-const itemsEl = document.querySelectorAll(".item");
-console.log(`Number of categories: ${itemsEl.length}`);
+// const itemsEl = document.querySelectorAll(".item");
+// console.log(`Number of categories: ${itemsEl.length}`);
 
-for (let index = 0; index < itemsEl.length; index++) {
-  const categoryEl = itemsEl[index].firstElementChild.innerText;
-  const liElement = itemsEl[index].children[1].children.length;
+// for (let index = 0; index < itemsEl.length; index++) {
+//   const categoryEl = itemsEl[index].firstElementChild.innerText;
+//   const liElement = itemsEl[index].children[1].children.length;
 
-  console.log(`Category: ${categoryEl}`);
-  console.log(`Elements: ${liElement}`);
-}
+//   console.log(`Category: ${categoryEl}`);
+//   console.log(`Elements: ${liElement}`);
+// }
 
 // 2-ий варіант
 
